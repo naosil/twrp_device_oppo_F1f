@@ -1,0 +1,22 @@
+# mount point       fstype    device                                                                flags
+/modem              emmc      /dev/block/bootdevice/by-name/modem                                   flags=display="Modem";
+/sbl1               emmc      /dev/block/bootdevice/by-name/sbl1                                    flags=display="Sbl1";
+/rpm                emmc      /dev/block/bootdevice/by-name/rpm                                     flags=display="Rpm";
+/tz                 emmc      /dev/block/bootdevice/by-name/tz                                      flags=display="Tz";
+/modem_st1          emmc      /dev/block/bootdevice/by-name/modemst1                                flags=display="Modem_st1";
+/modem_st2          emmc      /dev/block/bootdevice/by-name/modemst2                                flags=display="Modem_st2";
+/static_nv_bk       emmc      /dev/block/bootdevice/by-name/oppostanvbk                             flags=display="Static_nv_bk";
+/oppodycnvbk        emmc      /dev/block/bootdevice/by-name/oppodycnvbk                             flags=display="Oppodycnvbk";
+/aboot              emmc      /dev/block/bootdevice/by-name/aboot                                   flags=display="Aboot";
+/boot               emmc      /dev/block/bootdevice/by-name/boot                                    flags=display="Boot";backup=1;flashimg=1;
+/system             ext4      /dev/block/bootdevice/by-name/system                                  flags=display="System";backup=1;
+/system_image       emmc      /dev/block/bootdevice/by-name/system                                  flags=display="System image";backup=1;flashimg=1;
+/data               ext4      /dev/block/bootdevice/by-name/userdata                                flags=display="Data";
+/cache              ext4      /dev/block/bootdevice/by-name/cache                                   flags=display="Cache";
+/misc               emmc      /dev/block/bootdevice/by-name/misc                                    flags=display="Misc";backup=1;flashimg=1;
+/recovery           emmc      /dev/block/bootdevice/by-name/recovery                                flags=display="Recovery";backup=1;flashimg=1;
+/logo               emmc      /dev/block/bootdevice/by-name/LOGO                                    flags=display="Logo";
+/reserve4           emmc      /dev/block/bootdevice/by-name/reserve4                                flags=display="Reserve4";
+/driver             emmc      /dev/block/bootdevice/by-name/DRIVER                                  flags=display="Driver";
+/external_sd        vfat      /dev/block/mmcblk1p1                                                  flags=display="External_sd";
+/sdcard1            ext4      /dev/block/bootdevice/by-name/sdcard                                  flags=display="Sdcard1";
