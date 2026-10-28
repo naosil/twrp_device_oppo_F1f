@@ -60,6 +60,7 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8916
+TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
