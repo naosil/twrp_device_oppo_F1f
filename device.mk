@@ -18,3 +18,6 @@
 
 LOCAL_PATH := device/oppo/F1f
 
+# The kernel does not support aio with ffs.
+PRODUCT_PROPERTY_OVERRIDES += \
+	sys.usb.ffs.aio_compat=1
